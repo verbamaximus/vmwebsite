@@ -8,7 +8,7 @@ import particlesConfig from './Config/particlesConfig';
 import Home from './Pages/Home';
 import Events from './Pages/Events';
 import Team from './Pages/Team';
-import Sponsors from './Pages/Schedule';
+import Schedule from './Pages/Schedule';
 import Contact from './Pages/Contact';
 
 import { HashRouter as Router, Route, Link, Redirect, Routes } from 'react-router-dom';

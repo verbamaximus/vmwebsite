@@ -1,5 +1,22 @@
+@font-face {
+  font-family: 'Sticky Pops';
+  src: local('Sticky Pops'), url("./Fonts/Sticky Pops.otf") format('openType');
+}
+@font-face {
+  font-family: 'Streamster';
+  src: local('Streamster'), url("./Fonts/Streamster.ttf") format('truetype');
+}
+
 .App {
   text-align: center;
+}
+
+.word1 {
+  font-family: "Sticky Pops";
+}
+
+.word2 {
+  font-family: "Streamster";
 }
 
 .particles {

@@ -1,14 +1,12 @@
 import { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import tachyons from 'tachyons';
 
 import Particles from 'react-tsparticles';
 import particlesConfig from './Config/particlesConfig';
 
 const calculateTimeLeft = () => {
   let year = new Date().getFullYear();
-  let difference = +new Date(`03/14/${year}`) - +new Date(); //MM/DD/YYYY
+  let difference = +new Date(`03/19/${year}`) - +new Date(); //MM/DD/YYYY
 
   let timeLeft = {};
 
@@ -40,9 +38,9 @@ function App() {
           <Particles height="100vh" width="100vw" params={particlesConfig} />
         </div>
         <div className="pa3 pa4-ns">
-          <div className="white b f1 f-headline-ns tc db mb3 mb4-ns" title="Home"><span className='word1'>Verba</span><span className="word2">Maximus</span><span className='dark-blue'>{new Date().getFullYear()}</span></div>
+          <div className="white f1 f-headline-ns tc db mb3 mb4-ns" title="Home"><span className='word1'>Verba</span><span className="word2">Maximus</span><span className='dark-blue'>{new Date().getFullYear()}</span></div>
           {
-          (timeLeft.days+timeLeft.minutes+timeLeft.seconds+timeLeft.hour != 0) ? (<div class="cf">
+          (timeLeft.days+timeLeft.minutes+timeLeft.seconds+timeLeft.hour !== 0) ? (<div class="cf">
             <div class="fl w-25 tc pv5 bg-white-20 br">
               {timeLeft.days} Days
             </div>

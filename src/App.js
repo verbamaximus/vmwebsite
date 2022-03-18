@@ -8,7 +8,7 @@ import particlesConfig from './Config/particlesConfig';
 import Home from './Pages/Home';
 import Events from './Pages/Events';
 import Team from './Pages/Team';
-import Sponsors from './Pages/Sponsors';
+import Sponsors from './Pages/Schedule';
 import Contact from './Pages/Contact';
 
 import { HashRouter as Router, Route, Link, Redirect, Routes } from 'react-router-dom';
@@ -27,7 +27,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/Events" element={<Events />} />
             <Route path="/Team" element={<Team />} />
-            <Route path="/Sponsors" element={<Sponsors />} />
+            <Route path="/Schedule" element={<Schedule />} />
             <Route path="/Contact" element={<Contact />} />
           </Routes>
         </Router>

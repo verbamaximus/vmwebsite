@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
-    let difference = +new Date(`03/21/${year}`) - +new Date(); //MM/DD/YYYY
+    let difference = +new Date(`03/11/${year}`) - +new Date(); //MM/DD/YYYY
   
-    let timeLeft = {};
+    let timeLeft = null;
   
     if (difference > 0) {
       timeLeft = {
@@ -32,7 +32,7 @@ function Home() {
             <div className="pa3 pa4-ns">
                 <div className="white f1 f-headline-ns tc db mb3 mb4-ns" title="Home"><span className='word1'>Verba</span><span className="word2">Maximus</span> | <span className='dark-blue'>{new Date().getFullYear()}</span></div>
                 {
-                (timeLeft.days+timeLeft.minutes+timeLeft.seconds+timeLeft.hour !== 0) ? (<div class="cf">
+                (timeLeft && timeLeft.days+timeLeft.minutes+timeLeft.seconds+timeLeft.hours !== 0) ? (<div class="cf">
                 <div class="fl w-25 tc pv5 bg-white-20 br">
                     {timeLeft.days} Days
                 </div>

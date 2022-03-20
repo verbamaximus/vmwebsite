@@ -1,6 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
+<<<<<<< Updated upstream
+=======
+import sherlock from '../Images/sherlocked.jpeg';
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
+
+import Particles from 'react-tsparticles';
+import particlesConfig from '../Config/particlesConfig';
+
+>>>>>>> Stashed changes
 const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
     let difference = +new Date(`03/21/${year}`) - +new Date(); //MM/DD/YYYY
@@ -78,6 +88,56 @@ function Home() {
                 </div>
             </div>
         </div>
+
+        <div className='headline1'>
+          <img src = {sherlock} height='420' width='585'/>
+          <div className='headline-desc'>
+            <h1 className='geraldine'>Sherlocked</h1>
+            <ScrollAnimation animateIn='fadeIn'>
+              <div className='headline-desc body'>
+                <p>
+                Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
+                </p>
+              </div>
+            </ScrollAnimation>
+            
+          </div>
+          
+        </div>
+
+        <div className='headline1'>
+          <img src = {sherlock} height='420' width='585'/>
+          <div className='headline-desc'>
+            <h1 className='geraldine'>Sherlocked</h1>
+            <ScrollAnimation animateIn='fadeIn'>
+              <div className='headline-desc body'>
+                <p>
+                Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
+                </p>
+              </div>
+            </ScrollAnimation>
+            
+          </div>
+          
+        </div>
+
+        <div className='headline1'>
+          <img src = {sherlock} height='420' width='585'/>
+          <ScrollAnimation animateIn='slideInRight' duration={2}>
+          <div className='headline-desc'>
+            <h1 className='geraldine'>Sherlocked</h1>
+              <div className='headline-desc body'>
+                <p>
+                Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
+                </p>
+              </div>
+            
+          </div>
+          </ScrollAnimation>
+          
+        </div>
+        
+        
       </div>
       
 

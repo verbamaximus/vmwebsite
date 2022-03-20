@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-<<<<<<< Updated upstream
-=======
 import sherlock from '../Images/sherlocked.jpeg';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
@@ -10,7 +8,6 @@ import "animate.css/animate.min.css";
 import Particles from 'react-tsparticles';
 import particlesConfig from '../Config/particlesConfig';
 
->>>>>>> Stashed changes
 const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
     let difference = +new Date(`03/21/${year}`) - +new Date(); //MM/DD/YYYY

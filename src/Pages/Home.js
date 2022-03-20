@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
+
+import Particles from 'react-tsparticles';
+import particlesConfig from '../Config/particlesConfig';
+
 const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
-    let difference = +new Date(`04/22/${year}`) - +new Date(); //MM/DD/YYYY
+    let difference = +new Date(`03/21/${year}`) - +new Date(); //MM/DD/YYYY
   
     let timeLeft = null;
   
@@ -29,8 +33,13 @@ function Home() {
     });
 
     return (
-            <div className="pa3 pa4-ns">
-                <div className="white f1 f-headline-ns tc db mb3 mb4-ns" title="Home"><span className='word1'>Verba</span><span className="word2">Maximus</span> | <span className='white'>{new Date().getFullYear()}</span></div>
+      <div>
+        <div className="home-header">
+        {/* <div className="particles">
+            <Particles height="100vh" width="100vw" params={particlesConfig} />
+        </div> */}
+      <div className="pa3 pa4-ns">
+                <div className="white f1 f-headline-ns tc db mb3 mb4-ns" title="Home"><span className='word1'>Verba</span><span className="word2">Maximus</span> | <span className='dark-blue'>{new Date().getFullYear()}</span></div>
                 {
                 (timeLeft && timeLeft.days+timeLeft.minutes+timeLeft.seconds+timeLeft.hours !== 0) ? (<div class="cf">
                 <div class="fl w-25 tc pv5 bg-white-20 br">
@@ -71,6 +80,13 @@ function Home() {
                 <Link className="f6 f5-l link bg-animate white-80 hover-bg-blue dib pa3 ph4-l" to="/Schedule">Schedule</Link>
                 </div>
             </div>
+        </div>
+
+
+        
+      </div>
+      
+
     );
 }
 

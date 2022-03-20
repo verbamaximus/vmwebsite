@@ -24,19 +24,20 @@
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity:1;
-  background: #ff00cc;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #8e22e7, #ff02cc);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #8f06ff, #ff0000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+  background: #ff00cc;  /* fallback for old browsers
+  background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+} 
 
-.App-header { 
-  min-height: calc(100vh); /* - 75px*/
+.home-header { 
+  min-height: calc(70vh);
+  margin-bottom: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   font-size: calc(10px + 2vmin);
   color: white;
   position: relative;
+  background-image: url("Images/background.jpg");
 }

@@ -2,8 +2,6 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import tachyons from 'tachyons';
 
-import Particles from 'react-tsparticles';
-import particlesConfig from './Config/particlesConfig';
 
 import Home from './Pages/Home';
 import Events from './Pages/Events';
@@ -18,11 +16,7 @@ import { HashRouter as Router, Route, Link, Redirect, Routes } from 'react-route
 function App() {
   return (
     <div className="App">
-      <div className="App-header">
-        <div className="particles">
-            <Particles height="100vh" width="100vw" params={particlesConfig} />
-        </div>
-        <Router>
+      <Router>
           {/*All our Routes goes here!*/}
           <Routes>
             <Route path="/" element={<Home />} />
@@ -33,7 +27,7 @@ function App() {
             <Route path="/Contact" element={<Contact />} />
           </Routes>
         </Router>
-      </div>
+      
     </div>
   );
 }

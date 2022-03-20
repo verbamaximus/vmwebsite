@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'Sticky Pops';
-  src: local('Sticky Pops'), url("./Fonts/Sticky Pops.otf") format('openType');
+  font-family: 'Geraldine';
+  src: local('Geraldine'), url("./Fonts/Geraldine.ttf") format('truetype');
 }
 @font-face {
-  font-family: 'Streamster';
-  src: local('Streamster'), url("./Fonts/Streamster.ttf") format('truetype');
+  font-family: 'QuickKiss';
+  src: local('QuickKiss'), url("./Fonts/QuickKiss.ttf") format('truetype');
 }
 
 .App {
@@ -12,11 +12,11 @@
 }
 
 .word1 {
-  font-family: "Sticky Pops";
+  font-family: "QuickKiss";
 }
 
 .word2 {
-  font-family: "Streamster";
+  font-family: "QuickKiss";
 }
 
 .particles {

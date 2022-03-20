@@ -10,7 +10,7 @@ import Schedule from './Pages/Schedule';
 import Sponsors from './Pages/Sponsors';
 import Contact from './Pages/Contact';
 
-import { HashRouter as Router, Route, Link, Redirect, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 function App() {

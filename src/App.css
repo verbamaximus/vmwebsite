@@ -11,14 +11,12 @@
   text-align: center;
 }
 
-.word1 {
+.quickkiss {
   font-family: "QuickKiss";
 }
-
-.word2 {
-  font-family: "QuickKiss";
+.geraldine {
+  font-family: "Geraldine";
 }
-
 .particles {
   position: absolute;
   width: 100%;
@@ -40,4 +38,8 @@
   color: white;
   position: relative;
   background-image: url("Images/background.jpg");
+}
+
+.hrWidth {
+  width: 30%;
 }

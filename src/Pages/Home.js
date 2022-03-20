@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
-    let difference = +new Date(`03/11/${year}`) - +new Date(); //MM/DD/YYYY
+    let difference = +new Date(`03/22/${year}`) - +new Date(); //MM/DD/YYYY
   
     let timeLeft = null;
   

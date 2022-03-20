@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-
-import Particles from 'react-tsparticles';
-import particlesConfig from '../Config/particlesConfig';
-
 const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
     let difference = +new Date(`03/21/${year}`) - +new Date(); //MM/DD/YYYY
@@ -38,22 +34,23 @@ function Home() {
         {/* <div className="particles">
             <Particles height="100vh" width="100vw" params={particlesConfig} />
         </div> */}
-      <div className="pa3 pa4-ns">
+              <div className="pa3 pa4-ns">
                 <div className="white f1 f-headline-ns tc db mb3 mb4-ns" title="Home"><span className='quickkiss'>Verba</span><span className="quickkiss">Maximus</span> | <span className='white'>{new Date().getFullYear()}</span></div>
                 {
-                (timeLeft && timeLeft.days+timeLeft.minutes+timeLeft.seconds+timeLeft.hours !== 0) ? (<div class="cf">
-                <div class="fl w-25 tc pv5 bg-white-20 br">
-                    {timeLeft.days} Days
-                </div>
-                <div class="fl w-25 tc pv5 bg-white-20 br">
-                    {timeLeft.hours} Hours
-                </div>
-                <div class="fl w-25 tc pv5 bg-white-20 br">
-                    {timeLeft.minutes} Minutes
-                </div>
-                <div class="fl w-25 tc pv5 bg-white-20">
-                    {timeLeft.seconds} Seconds
-                </div>
+                (timeLeft && timeLeft.days+timeLeft.minutes+timeLeft.seconds+timeLeft.hours !== 0) ? (
+                <div class="cf">
+                  <div class="fl w-25 tc pv5 bg-white-20 br">
+                      {timeLeft.days} Days
+                  </div>
+                  <div class="fl w-25 tc pv5 bg-white-20 br">
+                      {timeLeft.hours} Hours
+                  </div>
+                  <div class="fl w-25 tc pv5 bg-white-20 br">
+                      {timeLeft.minutes} Minutes
+                  </div>
+                  <div class="fl w-25 tc pv5 bg-white-20">
+                      {timeLeft.seconds} Seconds
+                  </div>
                 </div>) : (
                 <section class="ph3 ph3-ns pv3">
                     <article class="mw7 center br2 ba b--light-blue bg-white">
@@ -73,17 +70,14 @@ function Home() {
                 )
                 }
                 <div className="bt bb tc mw7 center mt4">
-                <Link className="f6 f5-l link bg-animate white-80 hover-bg-blue dib pa3 ph4-l" to="/Events">Events</Link>
-                <Link className="f6 f5-l link bg-animate white-80 hover-bg-blue dib pa3 ph4-l" to="/Team">Team</Link>
-                <Link className="f6 f5-l link bg-animate white-80 hover-bg-blue dib pa3 ph4-l" to="/Sponsors">Sponsors</Link>
-                <Link className="f6 f5-l link bg-animate white-80 hover-bg-blue dib pa3 ph4-l" to="/Contact">Contact</Link>
-                <Link className="f6 f5-l link bg-animate white-80 hover-bg-blue dib pa3 ph4-l" to="/Schedule">Schedule</Link>
+                  <Link className="f6 f5-l link bg-animate white-80 hover-bg-blue dib pa3 ph4-l" to="/Events">Events</Link>
+                  <Link className="f6 f5-l link bg-animate white-80 hover-bg-blue dib pa3 ph4-l" to="/Team">Team</Link>
+                  <Link className="f6 f5-l link bg-animate white-80 hover-bg-blue dib pa3 ph4-l" to="/Sponsors">Sponsors</Link>
+                  <Link className="f6 f5-l link bg-animate white-80 hover-bg-blue dib pa3 ph4-l" to="/Contact">Contact</Link>
+                  <Link className="f6 f5-l link bg-animate white-80 hover-bg-blue dib pa3 ph4-l" to="/Schedule">Schedule</Link>
                 </div>
             </div>
         </div>
-
-
-        
       </div>
       
 

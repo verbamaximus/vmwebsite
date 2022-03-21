@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import sherlock from '../Images/sherlocked.jpeg';
 import ScrollAnimation from 'react-animate-on-scroll';
-import "animate.css/animate.min.css";
+import "animate.css/animate.css";
 
 import Particles from 'react-tsparticles';
 import particlesConfig from '../Config/particlesConfig';
@@ -90,7 +90,7 @@ function Home() {
           <img src = {sherlock} height='420' width='585'/>
           <div className='headline-desc'>
             <h1 className='geraldine'>Sherlocked</h1>
-            <ScrollAnimation animateIn='fadeIn'>
+            <ScrollAnimation animateIn='fadeIn' duration={3}>
               <div className='headline-desc body'>
                 <p>
                 Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
@@ -106,7 +106,7 @@ function Home() {
           <img src = {sherlock} height='420' width='585'/>
           <div className='headline-desc'>
             <h1 className='geraldine'>Sherlocked</h1>
-            <ScrollAnimation animateIn='fadeIn'>
+            <ScrollAnimation animateIn='fadeIn' duration={3}>
               <div className='headline-desc body'>
                 <p>
                 Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
@@ -120,7 +120,7 @@ function Home() {
 
         <div className='headline1'>
           <img src = {sherlock} height='420' width='585'/>
-          <ScrollAnimation animateIn='slideInRight' duration={2}>
+          <ScrollAnimation animateIn='fadeIn' duration={3}>
           <div className='headline-desc'>
             <h1 className='geraldine'>Sherlocked</h1>
               <div className='headline-desc body'>

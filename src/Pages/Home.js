@@ -10,7 +10,7 @@ import particlesConfig from '../Config/particlesConfig';
 
 const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
-    let difference = +new Date(`03/21/${year}`) - +new Date(); //MM/DD/YYYY
+    let difference = +new Date(`04/04/${year}`) - +new Date(); //MM/DD/YYYY
   
     let timeLeft = null;
   
@@ -103,7 +103,6 @@ function Home() {
         </div>
 
         <div className='headline1'>
-          <img src = {sherlock} height='420' width='585'/>
           <div className='headline-desc'>
             <h1 className='geraldine'>Sherlocked</h1>
             <ScrollAnimation animateIn='fadeIn' duration={3}>
@@ -113,9 +112,8 @@ function Home() {
                 </p>
               </div>
             </ScrollAnimation>
-            
           </div>
-          
+          <img src = {sherlock} height='420' width='585'/>
         </div>
 
         <div className='headline1'>
@@ -131,10 +129,7 @@ function Home() {
             
           </div>
           </ScrollAnimation>
-          
         </div>
-        
-        
       </div>
       
 

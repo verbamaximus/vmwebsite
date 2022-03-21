@@ -5,8 +5,8 @@ import msft from "../Images/msft.jpg"
 export default function Events() {
   return (
     <div>
-      <h1 className='geraldine f1 mt0 pa4'>Events</h1>
-      <h2 className='f2'>Speaking</h2>
+      <h1 className='geraldine f1 mt0 pa4 white'>Events</h1>
+      <h2 className='f2 white'>Speaking</h2>
       <hr className="hrWidth"/>
       <div className='pa4 flex-wrap'>
         <Card
@@ -122,7 +122,7 @@ export default function Events() {
       </div>
 
 
-      <h2 className='f2'>Writing</h2>
+      <h2 className='f2 white'>Writing</h2>
       <hr className="hrWidth"/>
       <div className='pa4 flex-wrap'>
         <Card

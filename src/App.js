@@ -11,15 +11,18 @@ import Sponsors from './Pages/Sponsors';
 import Contact from './Pages/Contact';
 
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import Footer from './Components/Footer';
+import Header from './Components/Header';
 
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <Router>
           {/*All our Routes goes here!*/}
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route exact path="/" element={<Home />} />
             <Route path="/Events" element={<Events />} />
             <Route path="/Team" element={<Team />} />
             <Route path="/Schedule" element={<Schedule />} />
@@ -27,7 +30,7 @@ function App() {
             <Route path="/Contact" element={<Contact />} />
           </Routes>
         </Router>
-      
+      <Footer/>
     </div>
   );
 }

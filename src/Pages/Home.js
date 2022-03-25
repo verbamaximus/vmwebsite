@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import sherlock from '../Images/sherlocked.jpeg';
-import ScrollAnimation from 'react-animate-on-scroll';
+import { Fade } from 'react-reveal';
 import "animate.css/animate.css";
 
 const calculateTimeLeft = () => {
@@ -33,11 +33,8 @@ function Home() {
     });
 
     return (
-      <div>
+      <div className='home'>
         <div className="home-header">
-        {/* <div className="particles">
-            <Particles height="100vh" width="100vw" params={particlesConfig} />
-        </div> */}
               <div className="pa3 pa4-ns">
                 <div className="white f1 f-headline-ns tc db mb3 mb4-ns" title="Home"><span className='quickkiss'>Verba</span><span className="quickkiss">Maximus</span> | <span className='white'>{new Date().getFullYear()}</span></div>
                 {
@@ -83,51 +80,66 @@ function Home() {
             </div>
         </div>
 
-        <div className='headline1 white'>
-          <img src = {sherlock} height='420' width='585'/>
-          <ScrollAnimation animateIn='fadeIn' duration={3}>
-          <div className='headline-desc'>
-            <h1 className='geraldine'>Sherlocked</h1>
-            <hr className='hrWidth'/>
-              <div className='headline-desc body'>
-                <p>
-                Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
-                </p>
-              </div>
+        <div className='content'>
+          <div className='headline1 white white'>
+            <img src = {sherlock} className='home-image'/>
+            <Fade right>
+            <div className='headline-desc'>
+              <h1 className='quickkiss'>SHERLOCKED</h1>
+              <hr className='hrWidth'/>
+                  <p>
+                  Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
+                  </p>
+            </div>
+            </Fade>
           </div>
-          </ScrollAnimation>
+
+          <div className='headline1 white white'>
+          <Fade left>
+            <div className='headline-desc'>
+              <h1 className='quickkiss'>ARG</h1>
+              <hr className='hrWidth'/>
+                  <p>
+                  Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
+                  </p>
+        
+            </div>
+            </Fade>
+            <img src = {sherlock} className = 'home-image'/>
+          </div>
+
+          <div className='headline1 white white'>
+            <img src = {sherlock} className='home-image'/>
+            <Fade right>
+            <div className='headline-desc'>
+              <h1 className='quickkiss'>SHIPWRECKED</h1>
+              <hr className='hrWidth'/>
+                <p>
+                  Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
+                </p>
+            </div>
+            </Fade>
+          </div>
+
+          <div className='headline1 white white'>
+          <Fade left>
+            <div className='headline-desc'>
+              <h1 className='quickkiss'>SUPERPOSITION</h1>
+              <hr className='hrWidth'/>
+              
+                <p>
+                  Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
+                </p>
+            </div>
+            </Fade>
+            <img src = {sherlock} className = 'home-image'/>
+          </div>
+
+          <Link to = "/events" className='more'>...and more!</Link>
         </div>
 
-        <div className='headline1 white white'>
-          <div className='headline-desc'>
-            <h1 className='geraldine'>Sherlocked</h1>
-            <hr className='hrWidth'/>
-            <ScrollAnimation animateIn='fadeIn' duration={3}>
-              <div className='headline-desc body'>
-                <p>
-                Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
-                </p>
-              </div>
-            </ScrollAnimation>
-          </div>
-          <img src = {sherlock} height='420' width='585'/>
-        </div>
-
-        <div className='headline1 white'>
-          <img src = {sherlock} height='420' width='585'/>
-          <ScrollAnimation animateIn='fadeIn' duration={3}>
-          <div className='headline-desc'>
-            <h1 className='geraldine'>Sherlocked</h1>
-            <hr className='hrWidth'/>
-              <div className='headline-desc body'>
-                <p>
-                Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
-                </p>
-              </div>
-          </div>
-          </ScrollAnimation>
-        </div>
       </div>
+      
       
 
     );

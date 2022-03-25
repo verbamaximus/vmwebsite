@@ -33,7 +33,7 @@ function Home() {
     });
 
     return (
-      <div className='home'>
+      <div>
         <div className="home-header">
               <div className="pa3 pa4-ns">
                 <div className="white f1 f-headline-ns tc db mb3 mb4-ns" title="Home"><span className='quickkiss'>Verba</span><span className="quickkiss">Maximus</span> | <span className='white'>{new Date().getFullYear()}</span></div>
@@ -70,18 +70,18 @@ function Home() {
                 </section>
                 )
                 }
-                <div className="bt bb tc mw7 center mt4">
-                  <Link className="f6 f5-l link bg-animate white-80 hover-bg-blue dib pa3 ph4-l" to="/Events">Events</Link>
-                  <Link className="f6 f5-l link bg-animate white-80 hover-bg-blue dib pa3 ph4-l" to="/Team">Team</Link>
-                  <Link className="f6 f5-l link bg-animate white-80 hover-bg-blue dib pa3 ph4-l" to="/Sponsors">Sponsors</Link>
-                  <Link className="f6 f5-l link bg-animate white-80 hover-bg-blue dib pa3 ph4-l" to="/Contact">Contact</Link>
-                  <Link className="f6 f5-l link bg-animate white-80 hover-bg-blue dib pa3 ph4-l" to="/Schedule">Schedule</Link>
+                <div className="bt bb tc mw7 center mt4 bg-white">
+                  <Link className="f6 f5-l link bg-animate black-80 hover-bg-purple dib pa3 ph4-l" to="/Events">Events</Link>
+                  <Link className="f6 f5-l link bg-animate black-80 hover-bg-purple dib pa3 ph4-l" to="/Team">Team</Link>
+                  <Link className="f6 f5-l link bg-animate black-80 hover-bg-purple dib pa3 ph4-l" to="/Sponsors">Sponsors</Link>
+                  <Link className="f6 f5-l link bg-animate black-80 hover-bg-purple dib pa3 ph4-l" to="/Contact">Contact</Link>
+                  <Link className="f6 f5-l link bg-animate black-80 hover-bg-purple dib pa3 ph4-l" to="/Schedule">Schedule</Link>
                 </div>
             </div>
         </div>
 
         <div className='content'>
-          <div className='headline1 white white'>
+          <div className='headline1 white'>
             <img src = {sherlock} className='home-image'/>
             <Fade right>
             <div className='headline-desc'>
@@ -94,8 +94,9 @@ function Home() {
             </Fade>
           </div>
 
-          <div className='headline1 white white'>
-          <Fade left>
+          <div className='headline1 white'>
+            <img src = {sherlock} className = 'home-image'/>
+            <Fade left>
             <div className='headline-desc'>
               <h1 className='quickkiss'>ARG</h1>
               <hr className='hrWidth'/>
@@ -105,10 +106,9 @@ function Home() {
         
             </div>
             </Fade>
-            <img src = {sherlock} className = 'home-image'/>
           </div>
 
-          <div className='headline1 white white'>
+          <div className='headline1 white'>
             <img src = {sherlock} className='home-image'/>
             <Fade right>
             <div className='headline-desc'>
@@ -121,18 +121,18 @@ function Home() {
             </Fade>
           </div>
 
-          <div className='headline1 white white'>
-          <Fade left>
-            <div className='headline-desc'>
-              <h1 className='quickkiss'>SUPERPOSITION</h1>
-              <hr className='hrWidth'/>
-              
-                <p>
-                  Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
-                </p>
-            </div>
-            </Fade>
+          <div className='headline1 white'>
             <img src = {sherlock} className = 'home-image'/>
+            <Fade left>
+              <div className='headline-desc'>
+                <h1 className='quickkiss'>SUPERPOSITION</h1>
+                <hr className='hrWidth'/>
+                
+                  <p>
+                    Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
+                  </p>
+              </div>
+            </Fade>
           </div>
 
           <Link to = "/events" className='more'>...and more!</Link>

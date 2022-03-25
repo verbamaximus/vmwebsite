@@ -17,20 +17,22 @@ import Header from './Components/Header';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <div className="App">  
       <Router>
+          <Header />
           {/*All our Routes goes here!*/}
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/Events" element={<Events />} />
-            <Route path="/Team" element={<Team />} />
-            <Route path="/Schedule" element={<Schedule />} />
-            <Route path="/Sponsors" element={<Sponsors />} />
-            <Route path="/Contact" element={<Contact />} />
-          </Routes>
+          <div className='pages'>
+            <Routes>
+              <Route exact path="/" element={<Home />} />
+              <Route path="/Events" element={<Events />} />
+              <Route path="/Team" element={<Team />} />
+              <Route path="/Schedule" element={<Schedule />} />
+              <Route path="/Sponsors" element={<Sponsors />} />
+              <Route path="/Contact" element={<Contact />} />
+            </Routes>
+          </div>
+          <Footer/>
         </Router>
-      <Footer/>
     </div>
   );
 }

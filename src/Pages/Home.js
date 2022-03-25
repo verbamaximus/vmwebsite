@@ -135,7 +135,7 @@ function Home() {
             </Fade>
           </div>
 
-          <Link to = "/events" className='more'>...and more!</Link>
+          <Link to = "/Events" className='more'>...and more!</Link>
         </div>
 
       </div>

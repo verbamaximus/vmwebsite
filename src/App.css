@@ -25,7 +25,6 @@
   background: linear-gradient(to right, #ff00cc, #333399);
 }
 
-/* Header */
 .home-header { 
   min-height: calc(70vh);
   display: flex;
@@ -43,6 +42,7 @@
   width: 30%;
 }
 
+/* Home Page Cards */
 .content {
   width: 100%;
   padding: 2em;
@@ -94,6 +94,7 @@ h1 {
   height: 100%;
 }
 
+/* Home Pre Footer */
 .more {
   font-size: 2em;
   color: white;
@@ -108,6 +109,7 @@ h1 {
   text-decoration: underline;
 }
 
+/* Header */
 .header {
   width: 100%;
   height: 75px;
@@ -142,6 +144,7 @@ h1 {
   z-index: 1000;
 }
 
+/* Footer */
 .footer {
   background-color: darkslategray;
   color: white;

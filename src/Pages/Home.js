@@ -95,7 +95,6 @@ function Home() {
           </div>
 
           <div className='headline1 white'>
-            <img src = {sherlock} className = 'home-image'/>
             <Fade left>
             <div className='headline-desc'>
               <h1 className='quickkiss'>ARG</h1>
@@ -106,6 +105,7 @@ function Home() {
         
             </div>
             </Fade>
+            <img src = {sherlock} className = 'home-image'/>
           </div>
 
           <div className='headline1 white'>
@@ -122,17 +122,17 @@ function Home() {
           </div>
 
           <div className='headline1 white'>
-            <img src = {sherlock} className = 'home-image'/>
             <Fade left>
-              <div className='headline-desc'>
-                <h1 className='quickkiss'>SUPERPOSITION</h1>
-                <hr className='hrWidth'/>
-                
+            <div className='headline-desc'>
+              <h1 className='quickkiss'>SUPERPOSITION</h1>
+              <hr className='hrWidth'/>
                   <p>
-                    Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
+                  Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
                   </p>
-              </div>
+        
+            </div>
             </Fade>
+            <img src = {sherlock} className = 'home-image'/>
           </div>
 
           <Link to = "/Events" className='more'>...and more!</Link>

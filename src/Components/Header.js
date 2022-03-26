@@ -3,7 +3,9 @@ import { Link } from "react-router-dom"
 export default function Header() {
     return (
         <div className="header">
-            <div className="header-title quickkiss f2">Verba Maximus</div>
+            <div className="quickkiss">
+            <Link className="header-title" to="/">Verba Maximus</Link>
+            </div>
             <div className="header-links">
                 <Link className="h-link" to="/">Home</Link>
                 <Link className="h-link" to="/Events">Events</Link>

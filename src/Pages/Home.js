@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import sherlock from '../Images/sherlocked.jpeg';
+import sherlock from '../Images/sherlocked.jpg';
 import { Fade } from 'react-reveal';
 import "animate.css/animate.css";
 

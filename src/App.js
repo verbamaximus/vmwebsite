@@ -13,6 +13,7 @@ import Contact from './Pages/Contact';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
+import Register from './Pages/Register';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
               <Route path="/Schedule" element={<Schedule />} />
               <Route path="/Sponsors" element={<Sponsors />} />
               <Route path="/Contact" element={<Contact />} />
+              <Route path="/Register" element={<Register />} />
             </Routes>
           </div>
           <Footer/>

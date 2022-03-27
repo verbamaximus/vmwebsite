@@ -2,14 +2,6 @@ import { Link } from "react-router-dom"
 
 export default function Header() {
     return (
-        // <div className="header">
-        //     <div className="quickkiss">
-        //     <Link className="header-title" to="/">Verba Maximus</Link>
-        //     </div>
-        //     <div className="header-links">
-                
-        //     </div>
-        // </div>
         <nav className="db dt-l w-100 border-box pa3 ph5-l bg-black">
         <div className="quickkiss">
             <Link className="header-title" to="/">Verba Maximus</Link>

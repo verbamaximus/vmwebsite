@@ -28,7 +28,7 @@ export default function Events({name, imgUrl, outPara, inPara1, inPara2, inPara3
   };
 
   return (
-    <Card sx={{ maxWidth: 345 }} className="dib br3 pa3 ma2 bw2 shadow-5 card">
+    <Card sx={{ maxWidth: 345, height: 650 }} className="dib br3 pa3 ma2 bw2 shadow-5 card">
         <CardHeader
         title={name}
       />
@@ -41,6 +41,18 @@ export default function Events({name, imgUrl, outPara, inPara1, inPara2, inPara3
       <CardContent>
         <Typography variant="body2" color="text.secondary">
           {outPara}
+          <br />
+          <br />
+          {inPara1}
+          <br />
+          <br />
+          {inPara2}
+          <br />
+          <br />
+          {inPara3}
+          <br />
+          <br />
+          {inPara4}
         </Typography>
       </CardContent>
       <CardActions disableSpacing>

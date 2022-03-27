@@ -6,194 +6,115 @@ export default function Events() {
   return (
     <div className=''>
       <h1 className='geraldine f1 mt0 pa4 white'>Events</h1>
-      <h2 className='f2 white'>Speaking</h2>
-      <hr className="hrWidth"/>
+      {/* <h2 className='f2 white'>Speaking</h2> */}
+      {/* <hr className="hrWidth"/> */}
       <div className='pa4 flex-wrap'>
-        <Card
-        imgUrl={msft}
-        name={"Debate"}
-        outPara={`"This January, ready your argumentative skills and convincing powers 
-        as Verba Maximus brings to you the ultimate debate competition: an exhilarating event full 
-        of fierce arguments and popular topics"`}
-        inPara1={``}
-        inPara2={``}
-        inPara3={`. Present your cases skillfully and engage in fiery 
-        rebuttals to sway the public opinion in your favour and experience the adrenaline rush as you
-        take on this electrifying debate.`}
-        inPara4={``}/>
-
       <Card
         imgUrl={msft}
-        name={"JAM"}
-        outPara={`"You'll have to shoot down the speaker before your opponents can, 
-        blabber as much as is humanly possible before you get interrupted. 
-        Keep an eye on the clock and, all the while do not forget, Mod is God.`}
-        inPara1={``}
+        name={"Sherlocked"}
+        outPara={`An alternate reality game: players explore the labyrinths of the online
+         and offline world, through the intrigues of conspiracy theories, cryptology and history.`}
+        inPara1={`An alternate reality game (ARG) is an interactive, networked narrative that uses the real world as a platform and 
+        employs transmedia storytelling to deliver a story that may be altered by players' ideas or actions.`}
         inPara2={``}
         inPara3={``}
         inPara4={``}/>
 
       <Card
         imgUrl={msft}
-        name={"Devil's Advocate"}
-        outPara={`Be prepared to venture into the realm of the morally grey and the 
-        utterly outrageous, as you attempt to defend a conventionally unpopular cause.
-         Who's the vilest of the all?`}
-        inPara1={``}
-        inPara2={`"This January, ready your argumentative skills and convincing powers 
-        as Verba Maximus brings to you the ultimate debate competition: an exhilarating event full 
-        of fierce arguments and popular topics `}
-        inPara3={`. Present your cases skillfully and engage in fiery 
-        rebuttals to sway the public opinion in your favour and experience the adrenaline rush as you
-        take on this electrifying debate.`}
+        name={"ARG"}
+        outPara={`An alternate reality game: players explore the labyrinths of the online
+         and offline world, through the intrigues of conspiracy theories, cryptology and history.`}
+        inPara1={`An alternate reality game (ARG) is an interactive, networked narrative that uses the real world as a platform and 
+        employs transmedia storytelling to deliver a story that may be altered by players' ideas or actions.`}
+        inPara2={``}
+        inPara3={``}
+        inPara4={``}/>
+
+      <Card
+        imgUrl={msft}
+        name={"Shipwrecked"}
+        outPara={`Participants have to use only words to ensure their survival 
+        in a particularly sticky situation`}
+        inPara1={`Stranded on a slowly sinking ship, as each minute ticks down, you inch ever so closer to your (possibly?) inevitable demise.`}
+        inPara2={`As you choose a character from pop culture - books, shows or television, words are all you have to convince the moderator to give you the life-jacket`}
+        inPara3={``}
+        inPara4={``}/>
+
+      <Card
+        imgUrl={msft}
+        name={"Superposition"}
+        outPara={`Our theme event for VM 2022.`}
+        inPara1={`We will have three writing prompts, each representing one of the three main aesthetics of this year’s theme.`}
+        inPara2={`As we visit ideas, landscapes, and scenarios from each of our three motifs, each one more evocative and vivid than the last, it’s up to you to write your path through this concept-jumping, interdimensional journey.`}
+        inPara3={``}
         inPara4={``}/>
         
       <Card
         imgUrl={msft}
-        name={"Group Discussion"}
-        outPara={`A healthy discussion with 8 voices trying to gain dominance over one another.
-         Most logical one wins. With a wide variety of prompts, this event is sure to test 
-         your ingenuity and logic.`}
-        inPara1={``}
-        inPara2={`"This January, ready your argumentative skills and convincing powers 
-        as Verba Maximus brings to you the ultimate debate competition: an exhilarating event full 
-        of fierce arguments and popular topics `}
-        inPara3={`. Present your cases skillfully and engage in fiery 
-        rebuttals to sway the public opinion in your favour and experience the adrenaline rush as you
-        take on this electrifying debate.`}
+        name={"JAM"}
+        outPara={`Participants try to out-blabber one another in VM’s signature JAM event.`}
+        inPara1={`In everyone’s favourite rapid-action, tongue-twister game, your finger (or in this case, mouth) must be on the trigger like never before.`}
+        inPara2={`How long can you run your mouth before you’re picked off by someone else?`}
+        inPara3={`With a timer counting down and opponents all around you, you must be hyper-aware in order to not falter - stumble, and it’s all over.`}
         inPara4={``}/>
         
       <Card
         imgUrl={msft}
-        name={"VM Slam"}
-        outPara={`Perform spoken word poetry in a bid to mesmerise a live audience and a
-         panel of experienced judges. 'Empty out your heart', as you drench every word in emotion.`}
-        inPara1={``}
-        inPara2={`"This January, ready your argumentative skills and convincing powers 
-        as Verba Maximus brings to you the ultimate debate competition: an exhilarating event full 
-        of fierce arguments and popular topics `}
-        inPara3={`. Present your cases skillfully and engage in fiery 
-        rebuttals to sway the public opinion in your favour and experience the adrenaline rush as you
-        take on this electrifying debate.`}
+        name={"Devil’s Advocate"}
+        outPara={`Participants have to defend and justify arguments that may be unpopular, distasteful, or just downright awful.`}
+        inPara1={`The ultimate contest for all morally…flexible people with questionable integrity.
+        As you grapple with your own personal ethical codes, you’ll find yourselves racking your brains to figure out how to rationalize and represent some of the most morally reprehensible opinions we can come up with.
+        `}
+        inPara2={``}
+        inPara3={``}
         inPara4={``}/>
-
-      <Card
-        imgUrl={msft}
-        name={"Lit Quiz"}
-        outPara={`A quiz filled with literature trivia and facts, with questions 
-        covering everything, from classics to comics.`}
-        inPara1={``}
-        inPara2={`This January, ready your argumentative skills and convincing powers 
-        as Verba Maximus brings to you the ultimate debate competition: an exhilarating event full 
-        of fierce arguments and popular topics`}
-        inPara3={`. Present your cases skillfully and engage in fiery 
-        rebuttals to sway the public opinion in your favour and experience the adrenaline rush as you
-        take on this electrifying debate.`}
-        inPara4={``}/>
-
-      <Card
-        imgUrl={msft}
-        name={"Youth Mahasabha"}
-        outPara={`The Hindi debating event gives you chance to take the stage, 
-        and present your arguments as you discuss a variety of topics.`}
-        inPara1={``}
-        inPara2={`This January, ready your argumentative skills and convincing powers 
-        as Verba Maximus brings to you the ultimate debate competition: an exhilarating event full 
-        of fierce arguments and popular topics`}
-        inPara3={`. Present your cases skillfully and engage in fiery 
-        rebuttals to sway the public opinion in your favour and experience the adrenaline rush as you
-        take on this electrifying debate.`}
-        inPara4={``}/>
-
-      <Card
-        imgUrl={msft}
-        name={"Bamboozled!"}
-        outPara={`Inspired from the famous sitcom F.R.I.E.N.D.S, but with a few unique twists,
-         find the 'Joey' to your Chandler as you compete in teams of two in one of the
-          wildest game shows ever.`}
-        inPara1={``}
-        inPara2={`This January, ready your argumentative skills and convincing powers 
-        as Verba Maximus brings to you the ultimate debate competition: an exhilarating event full 
-        of fierce arguments and popular topics`}
-        inPara3={`. Present your cases skillfully and engage in fiery 
-        rebuttals to sway the public opinion in your favour and experience the adrenaline rush as you
-        take on this electrifying debate.`}
-        inPara4={``}/>
-      </div>
-
-
-      <h2 className='f2 white'>Writing</h2>
-      <hr className="hrWidth"/>
-      <div className='pa4 flex-wrap'>
-        <Card
-        imgUrl={msft}
-        name={"Symphonies of the Soul"}
-        outPara={`A divine blend of music and literature. This event is sure to strike a chord
-         with your heart, as you write while live music is played.`}
-        inPara1={``}
-        inPara2={`"This January, ready your argumentative skills and convincing powers 
-        as Verba Maximus brings to you the ultimate debate competition: an exhilarating event full 
-        of fierce arguments and popular topics `}
-        inPara3={`. Present your cases skillfully and engage in fiery 
-        rebuttals to sway the public opinion in your favour and experience the adrenaline rush as you
-        take on this electrifying debate.`}
-        inPara4={``}/>
-
-      <Card
-        imgUrl={msft}
-        name={"Sherlocked"}
-        outPara={`In teams of two, Sherlock and Watson, unleash the detective
-         in you by questioning real suspects in an attempt to piece together
-          a murky murder mystery.`}
-        inPara1={``}
-        inPara2={`"This January, ready your argumentative skills and convincing powers 
-        as Verba Maximus brings to you the ultimate debate competition: an exhilarating event full 
-        of fierce arguments and popular topics `}
-        inPara3={`. Present your cases skillfully and engage in fiery 
-        rebuttals to sway the public opinion in your favour and experience the adrenaline rush as you
-        take on this electrifying debate.`}
-        inPara4={``}/>
-
+      
       <Card
         imgUrl={msft}
         name={"Picture Perspective"}
-        outPara={`The multiple layers hidden in every picture shall be unsheathed, 
-        as you let paintings inspire the writer within you.`}
-        inPara1={``}
-        inPara2={`"This January, ready your argumentative skills and convincing powers 
-        as Verba Maximus brings to you the ultimate debate competition: an exhilarating event full 
-        of fierce arguments and popular topics `}
-        inPara3={`. Present your cases skillfully and engage in fiery 
-        rebuttals to sway the public opinion in your favour and experience the adrenaline rush as you
-        take on this electrifying debate.`}
+        outPara={`In this writing event, participants let their mind and soul do the talking as they write after being given picture prompts.`}
+        inPara1={`What seems like straight lines to one person may look like an endless curve to another. `}
+        inPara2={`Will you be able to forsake your outlook for the chance of learning something new?`}
+        inPara3={`There are more perceptions of reality than atoms in the universe, but in order to see any of them, you might have to compromise being ‘right’.`}
         inPara4={``}/>
-        
+
       <Card
         imgUrl={msft}
-        name={"Spell Bee"}
-        outPara={`Our take on the classic event where we include various 
-        word games and puzzles, to see if you know your words right!`}
-        inPara1={``}
-        inPara2={`"This January, ready your argumentative skills and convincing powers 
-        as Verba Maximus brings to you the ultimate debate competition: an exhilarating event full 
-        of fierce arguments and popular topics `}
-        inPara3={`. Present your cases skillfully and engage in fiery 
-        rebuttals to sway the public opinion in your favour and experience the adrenaline rush as you
-        take on this electrifying debate.`}
+        name={"Slam Poetry"}
+        outPara={`"Some of us are lilies, not all of us are roses,
+        Some of us are verses, not all of us are proses."
+        `}
+        inPara1={`A VM classic, this event gives participants a stage like no other to express their true, unfiltered selves.`}
+        inPara2={``}
+        inPara3={``}
         inPara4={``}/>
-        
+
       <Card
         imgUrl={msft}
-        name={"Debate"}
-        outPara={`"It is better to debate a question without settling it than to settle a question
-        without debating it."`}
-        inPara1={``}
-        inPara2={`"This January, ready your argumentative skills and convincing powers 
-        as Verba Maximus brings to you the ultimate debate competition: an exhilarating event full 
-        of fierce arguments and popular topics `}
-        inPara3={`. Present your cases skillfully and engage in fiery 
-        rebuttals to sway the public opinion in your favour and experience the adrenaline rush as you
-        take on this electrifying debate.`}
+        name={"Babbling Statues"}
+        outPara={`A writing event similar to Twisted Tales but instead of fairy tales, participants write about Greek myths.`}
+        inPara1={`A reinvention of burned-out myths and their vapour trails.`}
+        inPara2={``}
+        inPara3={``}
+        inPara4={``}/>
+
+      <Card
+        imgUrl={msft}
+        name={"Trolls and Troubles"}
+        outPara={`As a bard, participants have to rely on their natural charisma to try and flirt with a troll in order to gain safe passage over a bridge.`}
+        inPara1={`Not just limited to love poetry, pieces can be anything from a love poem or drabble to a rap. In this anything-goes, no-holds-barred, and extremely fun writing and performance event, you have the freedom to be as outlandish and/or silly in your approach as you want.`}
+        inPara2={``}
+        inPara3={``}
+        inPara4={``}/>
+
+      <Card
+        imgUrl={msft}
+        name={"Dialectic"}
+        outPara={`This event is all about satire and exaggerating genres.`}
+        inPara1={`Participants are on either one of two sides: romantic or cynic. As a romantic, you are a starry-eyed daydreamer that only sees the ideal, and as a cynic, you are a disillusioned skeptic who doesn’t trust anything.`}
+        inPara2={`In a ‘battle-of-the-bards’ style scenario, you must write and perform your satire pieces (anything from stream-of-consciousness to limericks) as you defend your worldview.`}
+        inPara3={``}
         inPara4={``}/>
       </div>
     </div>

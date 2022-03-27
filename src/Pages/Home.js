@@ -82,7 +82,7 @@ function Home() {
               <h1 className='quickkiss'>ARG</h1>
               <hr className='hrWidth'/>
                   <p>
-                  Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
+                  An alternate reality game: players explore the labyrinths of the online and offline world, through the intrigues of conspiracy theories, cryptology and history. An alternate reality game (ARG) is an interactive, networked narrative that uses the real world as a platform and employs transmedia storytelling to deliver a story that may be altered by players' ideas or actions
                   </p>
         
             </div>
@@ -97,7 +97,10 @@ function Home() {
               <h1 className='quickkiss'>SHIPWRECKED</h1>
               <hr className='hrWidth'/>
                 <p>
-                  Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
+                Participants have to use only words to ensure their survival in a particularly sticky situation.
+
+                Stranded on a slowly sinking ship, as each minute ticks down, you inch ever so closer to your (possibly?) inevitable demise.
+                As you choose a character from pop culture - books, shows or television, words are all you have to convince the moderator to give you the life-jacket
                 </p>
             </div>
             </Fade>
@@ -109,7 +112,10 @@ function Home() {
               <h1 className='quickkiss'>SUPERPOSITION</h1>
               <hr className='hrWidth'/>
                   <p>
-                  Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
+                  Our theme event for VM 2022. <br />
+                  We will have three writing prompts, each representing one of the three main aesthetics of this year’s theme.
+                  <br /><br />
+                  As we visit ideas, landscapes, and scenarios from each of our three motifs, each one more evocative and vivid than the last, it’s up to you to write your path through this concept-jumping, interdimensional journey.
                   </p>
         
             </div>

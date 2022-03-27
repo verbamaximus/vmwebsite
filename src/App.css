@@ -172,3 +172,9 @@ h1 {
   align-items: center;
   justify-content: center;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

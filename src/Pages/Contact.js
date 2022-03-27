@@ -1,6 +1,9 @@
+import axios from 'axios';
 import React, {useState} from 'react'
 
 export default function Contact() {
+  const FORM_ENDPOINT = "https://public.herotofu.com/v1/71322400-adb5-11ec-b83f-8f17e10d6288";
+
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
@@ -22,38 +25,43 @@ export default function Contact() {
     setIssue(e.target.value);
   }
 
-  const handleSubmit = () => {
-    alert(`Email: ${email} \nName: ${name} \nPhone: ${phone} \nIssue: ${issue}`);
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    axios.post(FORM_ENDPOINT, { name, email, phone, issue})
+    
+    setEmail("")
+    setIssue("")
+    setName("")
+    setPhone("")
+    
   }
 
   return (
     <div>
-      <main className="pa4 black-80">
+      <main className="pa4 black-80 vh-100-ns">
         <form className="measure center" onSubmit={handleSubmit}>
-          <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
+          <fieldset id="sign_up" className="ba b--transparent ph0 mh0 form">
             <legend className="f2 white fw6 ph0 mh0">Contact Us</legend>
             <div className="mt3">
-              <label className="db white fw6 lh-copy f6" htmlFor="name">First Name</label>
-              <input className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2" type="text" name="email-address"  id="email-address" onChange={onNameChange}/>
+              <label className="db white fw6 lh-copy f6" htmlFor="name">Name</label>
+              <input className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2" type="text" name="name"  id="name" onChange={onNameChange} required value={name}/>
             </div>
             <div className="mv3">
               <label className="db white fw6 lh-copy f6" htmlFor="email">Email</label>
-              <input className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2" type="text" name="email" id="email" onChange={onEmailChange}/>
+              <input className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2" type="email" name="email" id="email" onChange={onEmailChange} required value={email}/>
             </div>
             <div className="mv3">
               <label className="db white fw6 lh-copy f6" htmlFor="phone">Phone Number</label>
-              <input className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2" type="text" name="phone"  id="phone" onChange={onPhoneChange}/>
+              <input className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2" type="tel" name="phone"  id="phone" onChange={onPhoneChange} value={phone}/>
             </div>
             <div className="mv3">
-              <label className="db white fw6 lh-copy f6" htmlFor="phone">The issue you are facing:</label>
-              <textarea id="issue" name="issue" className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2" aria-describedby="comment-desc" onChange={onIssueChange}></textarea>
+              <label className="db white fw6 lh-copy f6" htmlFor="phone">Query</label>
+              <textarea id="issue" name="issue" className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2" aria-describedby="comment-desc" onChange={onIssueChange} required value={issue} />
             </div>
           </fieldset>
           <div className="">
             <input className="b white ph3 pv2 input-reset ba b--white bg-transparent grow pointer f6 dib" type="submit" value="Submit" />
-          </div>
-          <div className="lh-copy mt3 white">
-            For further queries, feel free to drop a message or call us on `PhoneNumber`
           </div>
         </form>
       </main>

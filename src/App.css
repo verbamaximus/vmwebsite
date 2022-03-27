@@ -151,6 +151,14 @@ h1 {
   color:cornflowerblue;
 }
 
+.sponsors {
+  background: url(http://i.giphy.com/5lF3pQpdquCBy.gif);
+}
+
+.height-100 {
+  height: 100vh;
+}
+
 .footer {
   background-color: darkslategray;
   color: white;

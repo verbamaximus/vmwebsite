@@ -70,7 +70,7 @@ function Home() {
               <h1 className='quickkiss'>SHERLOCKED</h1>
               <hr className='hrWidth'/>
                   <p>
-                  Nullam ornare, nisi eget vulputate pellentesque, metus metus tempor nisl, ut malesuada lacus lectus in nunc. Cras dapibus scelerisque nunc, sed tempus magna ultricies vel. Phasellus a leo sit amet eros euismod finibus nec eu orci. Suspendisse quis diam nec neque facilisis vestibulum non a diam. Pellentesque et vestibulum lorem, vel iaculis massa. Phasellus sagittis volutpat augue eu fermentum. Integer tincidunt est a nunc scelerisque dictum. Ut pretium augue ac odio molestie, at ultricies erat tempus. Maecenas tempus justo purus.
+                  There has been a murder on campus. In this evolving case that has roped in eight separate individuals, confusion has been the only constant. You are our only shot at solving this murder mystery. Interrogate and cross-examine the eight suspects as you attempt to uncover the truth at SHERLOCKED, VM 2O22, and help us crack the case!
                   </p>
             </div>
             </Fade>
@@ -79,10 +79,15 @@ function Home() {
           <div className='headline1 white'>
             <Fade left>
             <div className='headline-desc'>
-              <h1 className='quickkiss'>ARG</h1>
+              <h1 className='quickkiss'>HIT ME BABY ONE MORE TIME</h1>
               <hr className='hrWidth'/>
                   <p>
-                  An alternate reality game: players explore the labyrinths of the online and offline world, through the intrigues of conspiracy theories, cryptology and history. An alternate reality game (ARG) is an interactive, networked narrative that uses the real world as a platform and employs transmedia storytelling to deliver a story that may be altered by players' ideas or actions
+                  ARG - “Alternate Reality Game” is an internet maze where your team navigates through
+                  an online labyrinth in search for answers of a gripping story that has twists and turns at
+                  every corner. Can you braid together the web of clues present in the vastness of
+                  cyberspace and unravel the nuances of the narratives? Mental fortitude and thinking on
+                  your feet are helpful traits as the ARG is sure to test your patience, but rest assured it is a
+                  very rewarding experience that is sure to satiate your thirst for an adventurous thrill.
                   </p>
         
             </div>
@@ -123,7 +128,7 @@ function Home() {
             <img src = {sherlock} className = 'home-image'/>
           </div>
 
-          <Link to = "/Events" className='more'>...and more!</Link>
+          <Link to = "/Events" className='more quickkiss'>...and more!</Link>
         </div>
 
       </div>

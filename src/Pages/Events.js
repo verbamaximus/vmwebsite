@@ -12,10 +12,8 @@ export default function Events() {
       <Card
         imgUrl={msft}
         name={"Sherlocked"}
-        outPara={`An alternate reality game: players explore the labyrinths of the online
-         and offline world, through the intrigues of conspiracy theories, cryptology and history.`}
-        inPara1={`An alternate reality game (ARG) is an interactive, networked narrative that uses the real world as a platform and 
-        employs transmedia storytelling to deliver a story that may be altered by players' ideas or actions.`}
+        outPara={`There has been a murder on campus. In this evolving case that has roped in eight separate individuals, confusion has been the only constant. `}
+        inPara1={`You are our only shot at solving this murder mystery. Interrogate and cross-examine the eight suspects as you attempt to uncover the truth at SHERLOCKED, VM 2O22, and help us crack the case!`}
         inPara2={``}
         inPara3={``}
         inPara4={``}/>
@@ -23,10 +21,13 @@ export default function Events() {
       <Card
         imgUrl={msft}
         name={"ARG"}
-        outPara={`An alternate reality game: players explore the labyrinths of the online
-         and offline world, through the intrigues of conspiracy theories, cryptology and history.`}
-        inPara1={`An alternate reality game (ARG) is an interactive, networked narrative that uses the real world as a platform and 
-        employs transmedia storytelling to deliver a story that may be altered by players' ideas or actions.`}
+        outPara={`ARG - “Alternate Reality Game” is an internet maze where your team navigates through
+        an online labyrinth in search for answers of a gripping story that has twists and turns at
+        every corner. Can you braid together the web of clues present in the vastness of
+        cyberspace and unravel the nuances of the narratives? `}
+        inPara1={`Mental fortitude and thinking on
+        your feet are helpful traits as the ARG is sure to test your patience, but rest assured it’s a
+        very rewarding experience that is sure to satiate your thirst for an adventurous thrill.`}
         inPara2={``}
         inPara3={``}
         inPara4={``}/>

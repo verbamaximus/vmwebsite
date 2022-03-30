@@ -10,7 +10,7 @@ export default function Header() {
             <Link className="white link dim dark-gray f6 f5-l dib mr3 mr4-l" to="/">Home</Link>
             <Link className="white link dim dark-gray f6 f5-l dib mr3 mr4-l" to="/Events">Events</Link>
             <Link className="white link dim dark-gray f6 f5-l dib mr3 mr4-l" to="/Team">Team</Link>
-            <Link className="white link dim dark-gray f6 f5-l dib mr3 mr4-l" to="/Sponsors">Sponsors</Link>
+            {/* <Link className="white link dim dark-gray f6 f5-l dib mr3 mr4-l" to="/Sponsors">Sponsors</Link> */}
             <Link className="white link dim dark-gray f6 f5-l dib mr3 mr4-l" to="/Contact">Contact</Link>
             <Link className="white link dim dark-gray f6 f5-l dib mr3 mr4-l" to="/Schedule">Schedule</Link>
             <Link className="white link dim bg-blue f6 f5-l dib mr3 mr4-l pa2 br1" to="/Register">Register</Link>

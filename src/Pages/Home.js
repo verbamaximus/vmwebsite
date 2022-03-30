@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import sherlock from '../Images/sherlocked.jpg';
+import sherlock from '../Images/sherlocked.png';
+import ship from "../Images/shipwrecked.jpg"
+import arg from "../Images/ARG.png"
+import superpos from "../Images/superposition.png";
 import { Fade } from 'react-reveal';
 import "animate.css/animate.css";
 
@@ -55,7 +58,7 @@ function Home() {
                   <Link className="f6 f5-l link bg-animate black-80 hover-bg-purple dib pa3 ph4-l" to="/Register">Register</Link>
                   <Link className="f6 f5-l link bg-animate black-80 hover-bg-purple dib pa3 ph4-l" to="/Events">Events</Link>
                   <Link className="f6 f5-l link bg-animate black-80 hover-bg-purple dib pa3 ph4-l" to="/Team">Team</Link>
-                  <Link className="f6 f5-l link bg-animate black-80 hover-bg-purple dib pa3 ph4-l" to="/Sponsors">Sponsors</Link>
+                  {/* <Link className="f6 f5-l link bg-animate black-80 hover-bg-purple dib pa3 ph4-l" to="/Sponsors">Sponsors</Link> */}
                   <Link className="f6 f5-l link bg-animate black-80 hover-bg-purple dib pa3 ph4-l" to="/Contact">Contact</Link>
                   <Link className="f6 f5-l link bg-animate black-80 hover-bg-purple dib pa3 ph4-l" to="/Schedule">Schedule</Link>
                 </div>
@@ -92,11 +95,11 @@ function Home() {
         
             </div>
             </Fade>
-            <img src = {sherlock} className = 'home-image'/>
+            <img src = {arg} className = 'home-image'/>
           </div>
 
           <div className='headline1 white'>
-            <img src = {sherlock} className='home-image'/>
+            <img src = {ship} className='home-image'/>
             <Fade right>
             <div className='headline-desc'>
               <h1 className='quickkiss'>SHIPWRECKED</h1>
@@ -125,7 +128,7 @@ function Home() {
         
             </div>
             </Fade>
-            <img src = {sherlock} className = 'home-image'/>
+            <img src = {superpos} className = 'home-image'/>
           </div>
 
           <Link to = "/Events" className='more quickkiss'>...and more!</Link>

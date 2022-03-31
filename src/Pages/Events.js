@@ -1,6 +1,5 @@
 import React from 'react'
 import Card from '../Components/CardMui.js'
-import msft from "../Images/msft.jpg"
 import sherlocked from "../Images/sherlocked.png"
 import devil from "../Images/devil.png"
 import jam from "../Images/JAM.png"
@@ -14,7 +13,8 @@ import dialectic from "../Images/dialectic.jpg"
 import troll from "../Images/trolls.jpg"
 import slam from "../Images/slam.jpg"
 import picture from "../Images/picture.jpg"
-
+import dayinlife from "../Images/dayinlife.jpg"
+import whatif from "../Images/whatif.png"
 import arg from "../Images/ARG.png"
 import superpos from "../Images/superposition.png"
 
@@ -166,11 +166,29 @@ export default function Events() {
       <Card
         imgUrl={bollywood}
         name={"Apun ka Bollywood"}
-        outPara={`A chance to rewrite some of your favourite Bollywood movies, the way you would have wanted them`}
+        outPara={`A chance to rewrite some of your favourite Bollywood movies, the way you would have wanted them.`}
         inPara1={``}
         inPara2={``}
         inPara3={``}
         inPara4={``}/>  
+
+      <Card
+        imgUrl={dayinlife}
+        name={"A Day in the Life"}
+        outPara={`Put yourself in the shoes of certain people or objects and trace out the thoughts and feelings that they experience in an entire day. Be the captain of their story as you lead us through their everyday happenings and bring the world inside their head to life.`}
+        inPara1={``}
+        inPara2={``}
+        inPara3={``}
+        inPara4={``}/>  
+
+      <Card
+        imgUrl={whatif}
+        name={"What If?"}
+        outPara={`It’s time to swing the battle axe and raise the magic staff. The Journal Club presents – What If? – a choice-based, live-action RPG that takes place in the campus itself.`}
+        inPara1={`Battle monsters, solve riddles and manage your team as you progress through the land and try to uncover secrets that are buried and long forgotten. Build a class-based team of four and take on the challenge that lies ahead of you.`}
+        inPara2={``}
+        inPara3={``}
+        inPara4={``}/> 
       </div>
     </div>
   )

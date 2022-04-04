@@ -82,7 +82,7 @@ function Home() {
           <div className='headline1 white'>
             <Fade left>
             <div className='headline-desc'>
-              <h1 className='quickkiss'>HIT ME BABY ONE MORE TIME</h1>
+              <h1 className='quickkiss'>ARG</h1>
               <hr className='hrWidth'/>
                   <p>
                   ARG - “Alternate Reality Game” is an internet maze where your team navigates through

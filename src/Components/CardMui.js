@@ -28,7 +28,7 @@ export default function Events({name, imgUrl, outPara, inPara1, inPara2, inPara3
   };
 
   return (
-    <Card sx={{ maxWidth: 345, height: 650 }} className="dib br3 pa3 ma2 bw2 shadow-5 card">
+    <Card sx={{ maxWidth: 500, backgroundColor: "black", color: "white" }} className="dib br3 pa3 ma2 bw2 shadow-5 card">
         <CardHeader
         title={name}
       />
@@ -39,7 +39,7 @@ export default function Events({name, imgUrl, outPara, inPara1, inPara2, inPara3
         alt="Image"
       />
       <CardContent>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="white">
           {outPara}
           <br />
           <br />

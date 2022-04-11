@@ -40,7 +40,7 @@ export default function Contact() {
   return (
     <div>
       <main className="pa4 black-80 vh-100-ns">
-        <form className="measure center" onSubmit={handleSubmit}>
+        <form className="measure center card b--black-20 bg-black white br4 pa4" onSubmit={handleSubmit}>
           <fieldset id="sign_up" className="ba b--transparent ph0 mh0 form">
             <legend className="f2 white fw6 ph0 mh0">Contact Us</legend>
             <div className="mt3">

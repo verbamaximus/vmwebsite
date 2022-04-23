@@ -10,7 +10,7 @@ import photo7 from '../Images/Nehal.jpg';
 import photo8 from '../Images/Dhruv.jpg';
 import photo9 from '../Images/Srikant.jpeg';
 import photo10 from '../Images/Atharva.jpeg';
-import photo11 from '../Images/Divya.jpeg';
+// import photo11 from '../Images/Divya.jpeg';
 
 export default function Team() {
   return (
@@ -29,8 +29,8 @@ export default function Team() {
       <Card imgLoc={photo7} name="Nehal Naidu" post="Online Publicity Team"  contacturl={"https://wa.me/917995257775"}/>
       <Card imgLoc={photo8} name="Dhruv Raghavan" post="Event Management Head"  contacturl={"https://wa.me/918197977773"}/>
       <Card imgLoc={photo10} name="Atharva Mahajan" post="Logistics Head"  contacturl={"https://wa.me/919901982288"}/>
-      <Card imgLoc={photo9} name="Srikant Tangirala" post="Web Development"  contacturl={"https://wa.me/919821295377"}/>
-      <Card imgLoc={photo11} name="Divyateja Pasupuleti" post="Web Development"  contacturl={"https://wa.me/919502833111"}/>
+      <Card imgLoc={photo9} name="Srikant Tangirala" post="Web Development Head"  contacturl={"https://wa.me/919821295377"}/>
+      {/* <Card imgLoc={photo11} name="Divyateja Pasupuleti" post="Web Development"  contacturl={"https://wa.me/919502833111"}/> */}
     </div>
     
   )
